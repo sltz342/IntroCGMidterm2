@@ -1,5 +1,10 @@
 Shader "Custom/ColorCorrectionShader"
 {
+    /*
+        //Lecture 5 Slides Referenced for LUT Shader Code referenced by Sean Melyashkevich for the Intro to CG Midterm 2024
+        //Code was used from Slide 45 from Lecture 5: Visual Effects created by Alvaro Quevedo
+        //THIS CODE WAS NOT MINE AND I DO NOT CLAIM AS SUCH
+    */
     Properties
     {
         _MainTex ("Albedo (RGB)", 2D) = "white" {}

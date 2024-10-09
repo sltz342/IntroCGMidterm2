@@ -23,9 +23,7 @@ Shader "Custom/ToonShader"
 
         //Lecture 5 Slides Referenced for Toon Shader Code referenced by Sean Melyashkevich for the Intro to CG Midterm 2024
         //Code was used from Slide 25-27 from Lecture 5: Visual Effects created by Alvaro Quevedo
-
-
-        //The LightingToonRamp here is 
+        
         float4 LightingToonRamp (SurfaceOutput s, fixed2 lightDir, fixed atten)
         {
             float diff = dot (s.Normal, lightDir);
